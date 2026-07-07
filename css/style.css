@@ -604,3 +604,41 @@ footer .description{
 .register-links a:hover{
     text-decoration: underline;
 }
+.about{
+    width: 80%;
+    max-width: 900px;
+    margin: 80px auto;
+    padding: 40px;
+
+    background: #6B3B3B;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.about h1{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.about h2{
+    color: white;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.about p{
+    color: #F3EAEA;
+    line-height: 1.8;
+}
+
+.about ul{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.about li{
+    color: #F3EAEA;
+    margin: 12px 0;
+}
