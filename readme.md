@@ -23,33 +23,8 @@ Attachify Kenya is a front-end web platform designed to connect university and c
 - CSS3
 - Google Fonts (Poppins)
 
-## Project Structure
 
-```
-AttachifyKenya/
-│
-├── assets/
-│   ├── images
-│   └── logo.png
-│
-├── css/
-│   ├── style.css
-│   └── loginstyle.css
-│
-├── login/
-│   ├── companylogin.html
-│   ├── companyregister.html
-│   ├── studentlogin.html
-│   └── studentregister.html
-│
-├── index.html
-├── about.html
-├── contact.html
-├── login.html
-├── architecture.html
-├── medicine.html
-└── tech.html
-```
+
 
 ## Website Pages
 
