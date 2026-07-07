@@ -48,6 +48,7 @@ Attachify Kenya is a front-end web platform designed to connect university and c
 - Search and filtering functionality
 - CV upload
 - Email notifications
+- updated details on the companies listed
 
 ## Author
 
