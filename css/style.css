@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #582E2E;
-    color: azure;
     font-family: "poppins", sans-serif;
 }
 .logo img {
@@ -16,11 +14,10 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6B3B3B;
+    background-color: ;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    padding: 15px 40px;
-    margin: 20px;
+    padding: 8px 30px;
+    
     
 }
 h1{
@@ -30,21 +27,27 @@ h1{
 nav{
     display: flex;
     gap: 60px;
-    border: 2px solid #F5E6D3;
-    border-radius: 12px;
     padding: 10px 20px;
-    background-color: #6B3B3B;
+    background-color:#F5F5F5;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    
 
 }
+
+a:hover{
+    color: #6B3B3B;
+}
 nav a {
-    
+     text-decoration: none;
+}
+nav button{
+    display:none;
 }
 
 .about{
     margin-top: 30px;
     padding: 20px;
+    background-color: #6B3B3B;
+    font-size: large;
    
 }
 
@@ -54,6 +57,7 @@ nav a {
     align-items: center;
     gap: 30px;
     margin-top: 60px;
+  
    
 }
 .feature h2 {
@@ -82,16 +86,21 @@ nav a {
 
 .feature {
     width: 480px; 
-     border: 0.5px solid #F5E6D3;
+     border: 0.5px solid #333333;
      border-radius: 12px;
      padding: 30px;
      min-height: 400px;
      align-items: center;
      text-align: center;
-     box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+     box-shadow: 0 12px 25px rgba(225, 1, 1, 0.25);
      transition: all .3s ease;
+     background-color: #6B3B3B;
+     
 
 }
+.feature h2,
+.feature p {
+    color: white;}
 
 .feature:hover{
     transform: translateY(-8px);
@@ -108,6 +117,7 @@ nav a {
     align-items: center;
     text-align: center;
     margin-top: 40px;
+    font-size: larger;
 }
 .categories{
     margin-top: 20px;
@@ -163,7 +173,7 @@ nav a {
     flex-direction: column;
     align-items: center;
 
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+    box-shadow: 0 10px 25px rgba(225, 1, 1, 0.25);
     transition: 0.3s ease;
 }
 
@@ -214,56 +224,62 @@ nav a {
     background-color: #A64F4F;
     transform: scale(1.05);
 }
-
 footer{
-    background-color: #6B3B3B;
-    color: white;
-
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
 
-    
+    padding: 15px 40px;
 
-    padding: 50px 20px;
-    margin-top: 80px;
-
-    border-top: 2px solid rgba(255,255,255,0.15);
+    background-color: #6B3B3B;
 }
+
 footer img{
-     width: 150px;
-    height: auto;
-    display: block;
+    width: 80px;
+    background: transparent;
+}
 
+.footer-text,
+.footer-links,
+.footer-copy{
+    background: transparent;
 }
-footer img{
-    width: 120px;
-    height: auto;
-    margin-bottom: 20px;
+
+.footer-text p,
+.footer-copy p{
+    color: white;
+    background: transparent;
+    margin: 3px 0;
 }
-footer .description{
-    max-width: 500px;
-    line-height: 1.7;
-    color: #F3EAEA;
-    margin-bottom: 25px;
+
+.footer-links{
+    display: flex;
+    gap: 25px;
 }
-footer .description{
-    max-width: 500px;
-    line-height: 1.7;
-    color: #F3EAEA;
-    margin-bottom: 25px;
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
 }
+
+.footer-links a:hover{
+    color: #F5E6D3;
+}
+
+
 .medicine-hero{
     text-align: center;
     margin: 50px;
+    background-color: #6B3B3B;
+    border-radius: 30px;
 }
 .medicine-hero h1{
-    color: azure;
+    color: #F5E6D3;
     font-size: 2.5rem;
 }
 .medicine-hero p{
-    color: #F3EAEA;
+    color: #F5E6D3;
     font-size: 1.1rem;
     line-height: 1.7;
     max-width: 700px;
@@ -360,13 +376,16 @@ footer .description{
 .architecture-hero{
     text-align: center;
     margin: 50px;
+    background-color: #6B3B3B;
+    border-radius: 30px;
 }
 .architecture-hero h1{
-    color: azure;
+    color: #F5E6D3;
     font-size: 2.5rem;
+    
 }
 .architecture-hero p{
-    color: #F3EAEA;
+    color: #F5E6D3;
     font-size: 1.1rem;
     line-height: 1.5;
     max-width: 700px;
@@ -433,13 +452,15 @@ footer .description{
 .tech-hero{
     text-align: center;
     margin: 50px;
+    background-color: #6B3B3B;
+    border-radius: 30px;
 }
 .tech-hero h1{
-    color: azure;
+    color: #F5E6D3;
     font-size: 2.5rem;
 }
 .tech-hero p{
-    color: #F3EAEA;
+    color: #F5E6D3;
     font-size: 1.1rem;
     line-height: 1.5;
     max-width: 700px;
@@ -502,6 +523,10 @@ footer .description{
 .tech-card a:hover {
     background: white;
 }
+.contact h1,
+.contact p{
+    color: #F5E6D3;
+}
 
 .contact {
     width: 80%;
@@ -540,7 +565,15 @@ footer .description{
 
     transition: .3s;
 }
-
+.login-head{
+    border-radius: 10px;
+    background-color: #6B3B3B;
+    color: #F5E6D3;
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
 .login-choice{
     width: 80%;
     margin: 70px auto;
@@ -582,6 +615,8 @@ footer .description{
 
 .login-card:hover{
     transform: translateY(-8px);
+    background-color: #582E2E;
+
 }
 
 .login-card h2{
@@ -599,7 +634,7 @@ footer .description{
 }
 
 .register-links a{
-    color: #F5E6D3;
+    color: #333333;
     text-decoration: none;
     font-weight: 600;
 }
@@ -645,3 +680,54 @@ footer .description{
     color: #F3EAEA;
     margin: 12px 0;
 }
+
+@media (max-width: 768px){
+    header{
+        padding:10px 20px;
+    }
+    .logo img{
+        width: 100px;
+    }
+    nav{
+        gap: 15px;
+        box-shadow: none;
+    }
+     nav a{
+        display: none;
+
+    }
+    nav button{
+        display: block;
+        font-size: 28px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    nav a{
+        display: none;
+
+    }
+    nav button{
+        display: block;
+        font-size: 28px;
+        border: none;
+        background: transparent;
+        cursor: pointer;
+    }
+    .register-form form{
+        grid-template-columns: 1fr;
+    }
+
+    .register-form button{
+        grid-column: span 1;
+    }
+    .feature img{
+    width: 400px;
+}
+.feature img{
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
+}
+

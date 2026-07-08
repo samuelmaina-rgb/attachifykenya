@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #582E2E;
-    color: azure;
     font-family: "poppins", sans-serif;
 }
 .logo img {
@@ -16,25 +14,32 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6B3B3B;
+    background-color: ;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    padding: 15px 40px;
-    margin: 20px;
+    padding: 8px 30px;
     
+    
+}
+.login-form h1{
+    color: #F5E6D3;
 }
 
 nav{
     display: flex;
     gap: 60px;
-    border: 2px solid #F5E6D3;
-    border-radius: 12px;
     padding: 10px 20px;
-    background-color: #6B3B3B;
+    background-color:#F5F5F5;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
-    
 
 }
+
+a:hover{
+    color: #6B3B3B;
+}
+nav a {
+     text-decoration: none;
+}
+
 nav a {
     
 }
@@ -42,39 +47,45 @@ footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6B3B3B;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    border-radius: 15px;
-    padding: 15px 40px;
-    margin: 20px;
-    flex-direction: column;
-}
-.tagline{
-    margin-bottom: 20px;
-}
-footer img{
-     width: 150px;
-    height: auto;
-    display: block;
 
+    padding: 15px 40px;
+
+    background-color: #6B3B3B;
 }
+
 footer img{
-    width: 120px;
-    height: auto;
-    margin-bottom: 20px;
+    width: 80px;
+    background: transparent;
 }
-footer .description{
-    max-width: 500px;
-    line-height: 1.7;
-    color: #F3EAEA;
-    margin-bottom: 25px;
+
+.footer-text,
+.footer-links,
+.footer-copy{
+    background: transparent;
 }
-footer .description{
-    max-width: 500px;
-    line-height: 1.7;
-    color: #F3EAEA;
-    margin-bottom: 25px;
+
+.footer-text p,
+.footer-copy p{
+    color: white;
+    background: transparent;
+    margin: 3px 0;
 }
+
+.footer-links{
+    display: flex;
+    gap: 25px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: white;
+    background: transparent;
+}
+
+.footer-links a:hover{
+    color: #F5E6D3;
+}
+
 .login-form{
     width: 500px;
     padding: 40px;
@@ -103,3 +114,58 @@ main{
     justify-content: center;
     align-items: center;
 }
+.register-head{
+    border-radius: 15px;
+    background-color: #6B3B3B;
+    color: #F5E6D3;
+    text-align: center;
+    width: fit-content;
+    margin: 50px auto 30px;
+    padding: 20px 40px;
+
+}
+.register-head h1{
+    color: #F5E6D3;
+    margin-top: 10px:
+}
+.register-form{
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto 60px;
+    padding: 40px;
+}
+
+.register-form form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+.register-form input,
+.register-form select{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+}
+.register-form button{
+    width: 100%;
+    padding: 15px;
+
+    background-color: #F5E6D3;
+    color: black;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 17px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.register-form button:hover{
+    background-color: #7A4747;
+    transform: scale(1.03);
+}
+
