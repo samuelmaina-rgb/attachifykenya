@@ -54,3 +54,5 @@ Attachify Kenya is a front-end web platform designed to connect university and c
 
 Developed by **Sam** as a front-end web development project.
 design link (figma) - https://www.figma.com/design/VehgziwsYbf7fLruMHEr0r/AttachifyKenya?node-id=59-89&t=8KdjuecJxxzOEINc-1
+cloudfare link - https://attachifykenya.pages.dev/
+
